@@ -1,0 +1,58 @@
+.header {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo__link {
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+	display: flex;
+	justify-content: space-between;
+}
+.menu__list-link {
+	color: #fff;
+	opacity: 0.6;
+}
+.menu__list-link + .menu__list-link {
+	margin-left: 42px;
+}
+.menu__list-link:hover {
+	opacity: 1;
+}
+.menu__list-item {
+	line-height: 18px;
+}
+.check {
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 16px;
+}
+.check__sign {
+	border-right: 1px solid #d4d4d4;
+	padding-right: 20px;
+	color: #262b35;
+}
+.check__sign:hover {
+	color: #1ece7a;
+}
+.check__start {
+	color: #262b35;
+	margin-left: 23px;
+}
+.check__start:hover {
+	color: #1ece7a;
+}

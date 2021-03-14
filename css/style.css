@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sixing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Inter,sans-serif;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 15px;
+  -ms-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__list-link {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.menu__list-link + .menu__list-link {
+  margin-left: 42px;
+}
+
+.menu__list-link:hover {
+  opacity: 1;
+}
+
+.menu__list-item {
+  line-height: 18px;
+}
+
+.check {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.check__sign {
+  border-right: 1px solid #d4d4d4;
+  padding-right: 20px;
+  color: #262b35;
+}
+
+.check__sign:hover {
+  color: #1ece7a;
+}
+
+.check__start {
+  color: #262b35;
+  margin-left: 23px;
+}
+
+.check__start:hover {
+  color: #1ece7a;
+}
+
+.top {
+  background-image: url(images/background-blue.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top__content {
+  padding: 190px 0 206px;
+}
